@@ -22,9 +22,6 @@ vim.keymap.set("n", "<leader>4", function()
     ui.nav_file(4)
 end)
 
-vim.keymap.set("n", "<C-h>", ui.nav_next)
-vim.keymap.set("n", "<C-l>", ui.nav_prev)
-
 require("harpoon").setup({
     tabline = true
 })
