@@ -5,5 +5,7 @@
 !/tmux
 /tmux/plugins
 
-!/assets/kittybl.jpeg
+!/zsh
 
+!/assets/kittybl.jpeg
+!README.md
