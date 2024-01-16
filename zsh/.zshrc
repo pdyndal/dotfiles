@@ -11,7 +11,7 @@ plugins=(
 	python
 	docker
 	ruby
-    tmux
+	tmux
 )
 
 # bun completions:
