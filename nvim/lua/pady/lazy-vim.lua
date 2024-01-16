@@ -118,16 +118,16 @@ require("lazy").setup({
         },
     },
 
+    -- Trouble
+
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+    },
+
     -- todo-comments
     {
         'folke/todo-comments.nvim',
-        cmd = {
-            "TodoTelescope",
-            "TodoTrouble",
-        },
-        keys = {
-            { "<leader>td", "<cmd>TodoTelescope<cr>" },
-            { "<leader>tt", "<cmd>TodoTrouble<cr>" },
-        },
+        dependencies = { "nvim-lua/plenary.nvim" },
     },
 })
