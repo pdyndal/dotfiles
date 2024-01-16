@@ -47,3 +47,9 @@
 ## Undotree
 
 - Toggle Undotree: `<leader>u`
+
+## TODO Comments
+
+- Todo telescope: `<leader>td`
+- Todo trouble: `<leader>tt`
+

@@ -117,4 +117,17 @@ require("lazy").setup({
             { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
         },
     },
+
+    -- todo-comments
+    {
+        'folke/todo-comments.nvim',
+        cmd = {
+            "TodoTelescope",
+            "TodoTrouble",
+        },
+        keys = {
+            { "<leader>td", "<cmd>TodoTelescope<cr>" },
+            { "<leader>tt", "<cmd>TodoTrouble<cr>" },
+        },
+    },
 })
