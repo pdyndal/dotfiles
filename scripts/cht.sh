@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 declare -a languages=("python" "go" "rust" "javascript")
-declare -a core_utils=("curl" "wget" "tmux" "tar" "zip")
+declare -a core_utils=("curl" "wget" "tmux" "tar" "zip" "git")
 
 declare -a all_utils=("${languages[@]}" "${core_utils[@]}")
 
