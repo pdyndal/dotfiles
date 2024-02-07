@@ -13,5 +13,8 @@
 
 !/scripts
 
+!/emacs
+!/doom
+
 !/assets/kittybl.jpeg
 !README.md
