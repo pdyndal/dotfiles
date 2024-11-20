@@ -2,7 +2,7 @@
 	email = pady@dhigroup.com
 	name = Patryk Dyndał
 [core]
-	autocrlf = false
+	autocrlf = true
 	editor = vim
 [credential "https://github.com"]
 	helper = !/usr/bin/gh auth git-credential
