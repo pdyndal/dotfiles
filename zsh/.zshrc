@@ -66,3 +66,5 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH="$PATH:/opt/nvim/"
 
 source $ZSH/oh-my-zsh.sh
+
+clear
