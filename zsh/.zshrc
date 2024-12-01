@@ -7,7 +7,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 export XDG_CONFIG_HOME="$HOME/.config"
 
-ZSH_THEME="jonathan"
+ZSH_THEME="robbyrussell"
 
 plugins=(
 	git
@@ -63,5 +63,6 @@ fi
 ### End of Codeium integration
 
 export PATH=$HOME/.local/bin:$PATH
+export PATH="$PATH:/opt/nvim/"
 
 source $ZSH/oh-my-zsh.sh
