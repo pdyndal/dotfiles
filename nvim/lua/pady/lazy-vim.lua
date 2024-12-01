@@ -130,4 +130,18 @@ require("lazy").setup({
         'folke/todo-comments.nvim',
         dependencies = { "nvim-lua/plenary.nvim" },
     },
+    {
+        "folke/which-key.nvim",
+        event = "VeryLazy",
+        opts = {},
+        keys = {
+            {
+                "<leader>?",
+                function()
+                    require("which-key").show({ global = false })
+                end,
+                desc = "Buffer Local Keymaps (which-key)",
+            },
+        },
+    }
 })

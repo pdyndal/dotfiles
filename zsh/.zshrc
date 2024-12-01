@@ -17,7 +17,15 @@ plugins=(
 	python
 	docker
 	ruby
+    golang
 	tmux
+    colorize
+    node
+    ng
+    nvm
+    ssh
+    ubuntu
+    rust
 )
 
 # bun completions:
@@ -56,11 +64,7 @@ alias cht.sh=~/.config/scripts/cht.sh
 export PATH=$PATH:/home/pady/.config/emacs/bin
 alias emacs="emacs -nw"
 
-### Added by Codeium. These lines cannot be automatically removed if modified
-if command -v termium > /dev/null 2>&1; then
-  eval "$(termium shell-hook show post)"
-fi
-### End of Codeium integration
+
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH="$PATH:/opt/nvim/"
@@ -68,3 +72,9 @@ export PATH="$PATH:/opt/nvim/"
 source $ZSH/oh-my-zsh.sh
 
 clear
+
+### Added by Codeium. These lines cannot be automatically removed if modified
+if command -v termium > /dev/null 2>&1; then
+  eval "$(termium shell-hook show post)"
+fi
+### End of Codeium integration
