@@ -60,14 +60,9 @@ ZSH_TMUX_AUTOSTART=true
 alias G=git
 alias cht.sh=~/.config/scripts/cht.sh
 
-# DOOM emacs
-export PATH=$PATH:/home/pady/.config/emacs/bin
-alias emacs="emacs -nw"
-
-
+# rust
 
 export PATH=$HOME/.local/bin:$PATH
-export PATH="$PATH:/opt/nvim/"
 
 source $ZSH/oh-my-zsh.sh
 

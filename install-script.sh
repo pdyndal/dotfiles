@@ -35,3 +35,8 @@ curl -fsSL https://bun.sh/install | bash
 
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Allow opening browser from wsl
+sudo add-apt-repository ppa:wslutilities/wslu
+sudo apt update
+sudo apt install wslu

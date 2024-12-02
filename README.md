@@ -18,6 +18,7 @@ Install [nerd fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v
  - [Ruby](https://www.ruby-lang.org/en/documentation/installation/#apt)
  - [NPM](https://github.com/nvm-sh/nvm)
  - [Bun](https://bun.sh/)
+ - [Rust](https://sh.rustup.rs)
  - Git if not already
 
 # RESEARCH
